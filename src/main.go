@@ -1,11 +1,11 @@
 package main
 
 import (
+	"configs"
 	"datasource"
-	"fmt"
 )
 
 func main() {
 	datasource.InitDB()
-	fmt.Println("Hello there")
+	configs.StartServer()
 }
